@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      <h2>JavaScript Objacts Data Structure and Arry</h2>;
+      var student = {
+        name: "Niloy",
+        age: "14",
+        Grade: "9",
+        hobbies: "Reading magazine",
+        fav_sport: "Football",
+      };
+
+      var color = ["blue", "green", "red", "white", "orange"];
+
+      document.write(
+        "student name is : " + student.name,
+        "<br>",
+        "student favourite sport is : " + student.fav_sport,
+        "<br>",
+        "student hobbie is : " + student.hobbies,
+        "<br>",
+        "student age is : " + student.age,
+        "<br>",
+        "student grade is : " + student.Grade
+      );
+
+      document.write("<br>");
+      document.write("Before poping the colors are : " + color.join("^"));
+
+      document.write("<br>");
+
+      document.write("My favourite color is : " + color[3]);
+      document.write("<br>");
+      color.pop();
+      document.write("After poping the colors are : " + color.join("*"));
+    </script>
+  </body>
+</html>
